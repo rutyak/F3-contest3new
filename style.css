@@ -1,0 +1,115 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common styles for all screen sizes */
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Background\ Pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom; /* Shift background image to the bottom */
+    padding: 2rem;
+}
+
+.sign-up {
+    text-align: left;
+    width: 29rem;
+    margin: 3rem auto; /* Added auto margin for centering */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 1.5rem;
+    height: 30em;
+}
+
+.sign-up h1 {
+    margin-bottom: 1rem;
+}
+
+.sign-up img {
+    margin-bottom: 0.3rem;
+}
+
+form .btn {
+    width: 100%;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+form input {
+    height: 2.3em;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+#error{
+    color: blue;
+    text-align: center;
+
+}
+
+/* Media Queries */
+/* (Add your media query styles here if needed) */
+
+/* --------------Details---------------- */
+
+.signup-info {
+    text-align: center;
+    background-image: url(./Background\ Pattern\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom; /* Shift background image to the bottom */
+    padding: 2rem;
+}
+
+.signup-info h1 {
+    margin-bottom: 0.6rem;
+}
+
+.top {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: blue;
+}
+
+.details h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(21, 21, 24);
+    margin-bottom: 2rem;
+}
+
+.details {
+    width: 24rem;
+    margin: 3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 1.5rem;
+    height: 26em;
+}
+
+.details p {
+    margin-bottom: 0.6rem;
+}
+
+.details .img2 {
+    margin-bottom: 2.5rem;
+}
+
+#logout {
+    width: 100%;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+}
